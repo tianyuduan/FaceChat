@@ -16,15 +16,15 @@ This app will, at a minimum, satisfy the following criteria with smooth, bug-fre
 - [ ] Production README
 
 ## How It All Works (rough draft)
-  1. Users will login through Facebook. Upon login, a series of questions will pop up, sex preferences, location, notification, age preferences, height preferences, etc.
+  1. Users will login through Facebook API. Upon login, a series of questions will pop up, sex preferences, location, notification, age preferences, height preferences, etc.
   2. Afterwards they will be prompted to set up their profile. This includes profile picture, height, ethnicity, religion, occupation, education, as well as answering questions like: I am ..., I like..., I appreciate when my date..., and their Briggs Meyer's Personality type.
   3. The matching algorithm is inspired by the popular dating app 'Coffee meets Bagel', where matches will be based on individuals who have mutual acquaintances, this cannot be unlocked however.
   4. There will be a discover function that will allow users to search for matches outside of their mutual group.
-  4. App limits to 25 new people a day
-  5. Once a match is found, a scheduling interface will appear, two individuals will be put in an allotted time where they are both free. (Matched individuals will not be able to talk to each other until through video for the first time)
-  6. Video chat commences and ends
-  7. Feedback post-video chat (How much you enjoyed speaking with this person, would speak again, etc) This will not be shown to the other pair**
-  8. Text Chat becomes unlocked to see if the two matched individuals want to continue talking, exchange information or schedule another video chat
+  5. App limits to 25 new people a day
+  6. Once a match is found, a scheduling interface will appear, two individuals will be put in an allotted time where they are both free. (Matched individuals will not be able to talk to each other until through video for the first time)
+  7. Video chat commences and ends
+  8. Feedback post-video chat (How much you enjoyed speaking with this person, would speak again, etc) This will not be shown to the other pair**
+  9. Text Chat becomes unlocked to see if the two matched individuals want to continue talking, exchange information or schedule another video chat
 
 ## Technologies (subject to change)
 Our mobile application will be using the MERN web stack. These frameworks stand for MongoDB, Express, React-Native, Node.js We will also be using Redux with React-Native.
