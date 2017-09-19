@@ -16,17 +16,15 @@ This app will, at a minimum, satisfy the following criteria with smooth, bug-fre
 - [ ] Video Chat interface
 - [ ] Production README
 
-
 ## Technologies
 Our mobile application will be using the MERN web stack. These frameworks stand for MongoDB, Express, React-Native, Node.js We will also be using Redux with React-Native. (subject to change)
 
-
 ## Implementation Timeline
-This app will be a multi-month project, that will most likely up to a year to fully polish and send to app store.
+This app will be a multi-month project, that will most likely up take longer then the expected timeline to fully polish and send to app store.
 
 ### Phase 0: Learning MongoDB, Node.js and Express(one week)
 **Objective:**
-  - To understand new software libaries/technhologies
+  - To understand new software libraries/Technologies
 
 ### Phase 1: Backend Auth and Backend Setup(two weeks)
 **Objective:**
@@ -40,3 +38,8 @@ This app will be a multi-month project, that will most likely up to a year to fu
 ### Phase 3: UX, UI Design and polish(one week)
 **Objective:**
   - To satisfy a smooth, bug-free user experience
+
+## Potential Challenges
+  - Facebook API with our own Auth
+  - Video Chat & Text Chat
+  - Matching Algorithms
