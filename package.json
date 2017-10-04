@@ -2,7 +2,7 @@
   "name": "FaceChat",
   "version": "1.0.0",
   "description": "FaceChat is an mobile application that is designed to resolve an existing issue with the current dating apps out in the market today.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/tianyuduan/FaceChat#readme",
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
     "express": "^4.16.0",
     "express-handlebars": "^3.0.0",
     "express-messages": "^1.0.1",
@@ -30,6 +32,7 @@
     "express-validator": "^4.2.1",
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.13",
+    "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
     "passport-http": "^0.3.0",
